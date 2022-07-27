@@ -1,0 +1,344 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.left--main {
+    width: 30%;
+    height: 100vh;
+    background-color: red;
+    position: relative;
+}
+.hamburger {
+    width: 22px;
+    height: 22px;
+    top: 30px;
+    left: 30px;
+    position: absolute;
+    z-index: 2;
+    border: 2px solid black;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.fashion img{
+    width: 40%;
+    height: 15%;
+    top: 10%;
+    left: 22%;
+    position: absolute;
+    z-index: 4;
+}
+.white--red--line {
+    width: 100%;
+    height: 3%;
+    background-color: white;
+    top: 25%;
+    left: 42%;
+    position: absolute;
+    z-index: 5;
+}
+.quote {
+    width: 80%;
+    height: 25%;
+    background-color: transparent;
+    position: absolute;
+    z-index: 9;
+    top: 30%;
+    left: 10%;
+    z-index: 14;
+}
+.fashion--is {
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: justify;
+}
+.quote i {
+    font-size: 40px;
+    color: gray;
+    font-weight: 700;
+}
+.quote--two {
+    right: 60%;
+    position: absolute;
+    z-index: 16;
+}
+.season {
+    width: 70%;
+    height: 5%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    transform: rotate(270deg);
+    position: absolute;
+    top: 75%;
+    left: -18%;
+}
+.season a {
+    text-decoration-line: none;
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.up--down {
+    width: 14%;
+    height: 20%;
+    background-color: transparent;
+    position: absolute;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    top: 80%;
+    left: 30%;
+}
+.go {
+    width: 80%;
+    height: 30%;
+    background-color: transparent;
+    color: #fff;
+    font-weight: 600;
+    border: 1px solid white;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 35px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.go:hover,
+.back:hover{
+    color: aqua;
+}
+.back
+ {
+    width: 80%;
+    height: 30%;
+    background-color: transparent;
+    color: #fff;
+    font-weight: 600;
+    border: 1px solid white;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 35px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.black--girl {
+    width: 300;
+    height: 20%;
+    position: absolute;
+    bottom: 50px;
+    right: -80%;
+    z-index: 9999;
+}
+.black--girl img{
+    width: 300px;
+    height: 200px;
+    z-index: 2000;
+    left: 50%;
+    top: 79%;
+}
+.right--main {
+    width: 70%;
+    height: 100vh;
+    background-color: #fff;
+    position: absolute;
+    right: 0;
+}
+.right--main .redone {
+    width: 25%;
+    height: 3%;
+    background-color: red;
+    position: absolute;
+    z-index: 15;
+    top: 25%;
+    z-index: 5;
+}
+.right--main .redone .small--white {
+    width: 4%;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    z-index: 6;
+    left: 93%;
+}
+.header {
+    width: 80%;
+    height: 15%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 4%;
+    left: 20%;
+}
+.header a {
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration-line: none;
+    color: black;
+    text-transform: uppercase;
+}
+.header .fas.fa-user {
+    font-size: 24px;
+}
+.pink--girl img {
+    width: 45%;
+    height: 45%;
+    position: absolute;
+    top: 20%;
+    left: 45%;
+}
+.ternding {
+    width: 34%;
+    height: 10%;
+    background-color: transparent;
+    font-size: 55px;
+    text-transform: uppercase;
+    color: gray;
+    opacity: 0.2;
+    position: absolute;
+    z-index: 24;
+    top: 36%;
+    left: 25%;
+    transform: rotate(270deg);
+}
+.the--world {
+    width: 35%;
+    height: 36%;
+    background-color: transparent;
+    position: absolute;
+    z-index: 25;
+    top: 31%;
+    left: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: justify;
+}
+.the--world span {
+    font-size: 30px;
+    font-weight: 600;
+}
+.zero--four {
+    width: 15%;
+    height: 5%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 10px;
+    font-weight: 500;
+    transform: rotate(270deg);
+    position: absolute;
+    z-index: 26;
+    top: 80%;
+}
+.zero--four .small--black--line {
+    width: 60%;
+    height: 7%;
+    background-color: black;
+}
+.small {
+    width: 15%;
+    height: 5%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 18px;
+    font-weight: 600;
+    position: absolute;
+    z-index: 27;
+    top: 70%;
+    left: 22%;
+
+}
+.small .small--up--black {
+    width: 60%;
+    height: 7%;
+    background-color: black;
+    position: relative;
+}
+.small--white {
+    width: 8%;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    z-index: 28;
+    left: 6%;
+}
+.long--line {
+    width: 25%;
+    height: 6%;
+    background-color: transparent;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    z-index: 28;
+    top: 70%;
+    left: 55%;
+}
+.red----line {
+    width: 100%;
+    height: 30%;
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    z-index: 30;
+    top: 70%;
+    left: 55%;
+}
+.white--red---line {
+    width: 6%;
+    height: 28%;
+    background-color: #fff;
+    position: absolute;
+    transform: translateX(8px);
+    z-index: 31;
+}
+.social {
+    width: 5%;
+    height: 28%;
+    background-color: transparent;
+    position: absolute;
+    bottom: 5%;
+    right: 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.social a {
+    color: black;
+    font-size: 20px;
+}
+.social a:hover {
+    color: aqua;
+} 
