@@ -13,7 +13,7 @@ Today I create with html and css file for Design. I use here html and css tags.
 > *STEP-2:*  enter the `Design` folder that appears <br/>
 > *STEP-3:*  open the folder you are in in a text editor <br/>
 > *STEP-4:*  run the  all the`index.html` files in the main folder <br/>
-> *STEP-5:*  to download the project as `.zip`  [here](https://github.com/cavidsuleyman/Ballon-Game/archive/refs/heads/master.zip) click <br/>
+> *STEP-5:*  to download the project as `.zip`  [here](https://github.com/IlkinLion/design/archive/refs/heads/master.zip) click <br/>
 
 
 ## Technology
